@@ -1,0 +1,546 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Hallow Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div
+      class="relative flex size-full min-h-screen flex-col b group/design-root overflow-x-hidden"
+      style="
+        font-family: 'Roboto', serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings: 'wdth' 100;
+        background-color: #deeae6;
+      "
+    >
+      <div class="layout-container flex h-full grow flex-col">
+        <header
+          class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e7edf3] px-10 py-3"
+        >
+          <div class="flex items-center gap-4 text-[#0e141b]">
+            <div class="size-4">
+              <svg
+                viewBox="0 0 48 48"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_6_319)">
+                  <path
+                    d="M8.57829 8.57829C5.52816 11.6284 3.451 15.5145 2.60947 19.7452C1.76794 23.9758 2.19984 28.361 3.85056 32.3462C5.50128 36.3314 8.29667 39.7376 11.8832 42.134C15.4698 44.5305 19.6865 45.8096 24 45.8096C28.3135 45.8096 32.5302 44.5305 36.1168 42.134C39.7033 39.7375 42.4987 36.3314 44.1494 32.3462C45.8002 28.361 46.2321 23.9758 45.3905 19.7452C44.549 15.5145 42.4718 11.6284 39.4217 8.57829L24 24L8.57829 8.57829Z"
+                    fill="currentColor"
+                  ></path>
+                </g>
+                <defs>
+                  <clipPath id="clip0_6_319">
+                    <rect width="48" height="48" fill="white"></rect>
+                  </clipPath>
+                </defs>
+              </svg>
+            </div>
+            <h2
+              class="text-[#0e141b] text-lg font-bold leading-tight tracking-[-0.015em]"
+            >
+              John Packer
+            </h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a
+                class="text-[#0e141b] text-sm font-medium leading-normal"
+                href="#"
+                >About</a
+              >
+              <a
+                class="text-[#0e141b] text-sm font-medium leading-normal"
+                href="#"
+                >Work</a
+              >
+              <a
+                class="text-[#0e141b] text-sm font-medium leading-normal"
+                href="#"
+                >Testimonials</a
+              >
+              <a
+                class="text-[#0e141b] text-sm font-medium leading-normal"
+                href="#"
+                >Contact</a
+              >
+            </div>
+            <div class="flex gap-2">
+              <button
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 bg-[#e7edf3] text-[#0e141b] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              >
+                <div
+                  class="text-[#0e141b]"
+                  data-icon="Gear"
+                  data-size="20px"
+                  data-weight="regular"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20px"
+                    height="20px"
+                    fill="currentColor"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160Zm88-29.84q.06-2.16,0-4.32l14.92-18.64a8,8,0,0,0,1.48-7.06,107.21,107.21,0,0,0-10.88-26.25,8,8,0,0,0-6-3.93l-23.72-2.64q-1.48-1.56-3-3L186,40.54a8,8,0,0,0-3.94-6,107.71,107.71,0,0,0-26.25-10.87,8,8,0,0,0-7.06,1.49L130.16,40Q128,40,125.84,40L107.2,25.11a8,8,0,0,0-7.06-1.48A107.6,107.6,0,0,0,73.89,34.51a8,8,0,0,0-3.93,6L67.32,64.27q-1.56,1.49-3,3L40.54,70a8,8,0,0,0-6,3.94,107.71,107.71,0,0,0-10.87,26.25,8,8,0,0,0,1.49,7.06L40,125.84Q40,128,40,130.16L25.11,148.8a8,8,0,0,0-1.48,7.06,107.21,107.21,0,0,0,10.88,26.25,8,8,0,0,0,6,3.93l23.72,2.64q1.49,1.56,3,3L70,215.46a8,8,0,0,0,3.94,6,107.71,107.71,0,0,0,26.25,10.87,8,8,0,0,0,7.06-1.49L125.84,216q2.16.06,4.32,0l18.64,14.92a8,8,0,0,0,7.06,1.48,107.21,107.21,0,0,0,26.25-10.88,8,8,0,0,0,3.93-6l2.64-23.72q1.56-1.48,3-3L215.46,186a8,8,0,0,0,6-3.94,107.71,107.71,0,0,0,10.87-26.25,8,8,0,0,0-1.49-7.06Zm-16.1-6.5a73.93,73.93,0,0,1,0,8.68,8,8,0,0,0,1.74,5.48l14.19,17.73a91.57,91.57,0,0,1-6.23,15L187,173.11a8,8,0,0,0-5.1,2.64,74.11,74.11,0,0,1-6.14,6.14,8,8,0,0,0-2.64,5.1l-2.51,22.58a91.32,91.32,0,0,1-15,6.23l-17.74-14.19a8,8,0,0,0-5-1.75h-.48a73.93,73.93,0,0,1-8.68,0,8,8,0,0,0-5.48,1.74L100.45,215.8a91.57,91.57,0,0,1-15-6.23L82.89,187a8,8,0,0,0-2.64-5.1,74.11,74.11,0,0,1-6.14-6.14,8,8,0,0,0-5.1-2.64L46.43,170.6a91.32,91.32,0,0,1-6.23-15l14.19-17.74a8,8,0,0,0,1.74-5.48,73.93,73.93,0,0,1,0-8.68,8,8,0,0,0-1.74-5.48L40.2,100.45a91.57,91.57,0,0,1,6.23-15L69,82.89a8,8,0,0,0,5.1-2.64,74.11,74.11,0,0,1,6.14-6.14A8,8,0,0,0,82.89,69L85.4,46.43a91.32,91.32,0,0,1,15-6.23l17.74,14.19a8,8,0,0,0,5.48,1.74,73.93,73.93,0,0,1,8.68,0,8,8,0,0,0,5.48-1.74L155.55,40.2a91.57,91.57,0,0,1,15,6.23L173.11,69a8,8,0,0,0,2.64,5.1,74.11,74.11,0,0,1,6.14,6.14,8,8,0,0,0,5.1,2.64l22.58,2.51a91.32,91.32,0,0,1,6.23,15l-14.19,17.74A8,8,0,0,0,199.87,123.66Z"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+              <button
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 bg-[#e7edf3] text-[#0e141b] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              >
+                <div
+                  class="text-[#0e141b]"
+                  data-icon="Moon"
+                  data-size="20px"
+                  data-weight="regular"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20px"
+                    height="20px"
+                    fill="currentColor"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M233.54,142.23a8,8,0,0,0-8-2,88.08,88.08,0,0,1-109.8-109.8,8,8,0,0,0-10-10,104.84,104.84,0,0,0-52.91,37A104,104,0,0,0,136,224a103.09,103.09,0,0,0,62.52-20.88,104.84,104.84,0,0,0,37-52.91A8,8,0,0,0,233.54,142.23ZM188.9,190.34A88,88,0,0,1,65.66,67.11a89,89,0,0,1,31.4-26A106,106,0,0,0,96,56,104.11,104.11,0,0,0,200,160a106,106,0,0,0,14.92-1.06A89,89,0,0,1,188.9,190.34Z"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+              <!-- <button
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 bg-[#e7edf3] text-[#0e141b] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              >
+                <div
+                  class="text-[#0e141b]"
+                  data-icon="Sun"
+                  data-size="20px"
+                  data-weight="regular"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20px"
+                    height="20px"
+                    fill="currentColor"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M120,40V16a8,8,0,0,1,16,0V40a8,8,0,0,1-16,0Zm72,88a64,64,0,1,1-64-64A64.07,64.07,0,0,1,192,128Zm-16,0a48,48,0,1,0-48,48A48.05,48.05,0,0,0,176,128ZM58.34,69.66A8,8,0,0,0,69.66,58.34l-16-16A8,8,0,0,0,42.34,53.66Zm0,116.68-16,16a8,8,0,0,0,11.32,11.32l16-16a8,8,0,0,0-11.32-11.32ZM192,72a8,8,0,0,0,5.66-2.34l16-16a8,8,0,0,0-11.32-11.32l-16,16A8,8,0,0,0,192,72Zm5.66,114.34a8,8,0,0,0-11.32,11.32l16,16a8,8,0,0,0,11.32-11.32ZM48,128a8,8,0,0,0-8-8H16a8,8,0,0,0,0,16H40A8,8,0,0,0,48,128Zm80,80a8,8,0,0,0-8,8v24a8,8,0,0,0,16,0V216A8,8,0,0,0,128,208Zm112-88H216a8,8,0,0,0,0,16h24a8,8,0,0,0,0-16Z"
+                    ></path>
+                  </svg>
+                </div>
+              </button> -->
+            </div>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div
+            class="layout-content-container flex flex-col max-w-[960px] flex-1"
+          >
+            <div class="@container">
+              <div class="@[480px]:p-4">
+                <div
+                  class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-xl items-center justify-center p-4"
+                  style="
+                    background-image: linear-gradient(
+                        rgba(0, 0, 0, 0.5) 0%,
+                        rgba(0, 0, 0, 0.5) 100%
+                      ),
+                      url('https://cdn.prod.website-files.com/649073100d78123d88ea2422/65a19b3b56a3def7ee368f84_Developer%20photo.webp');
+                  "
+                >
+                  <div class="flex flex-end flex-col gap-2 text-center">
+                    <h1
+                      style="
+                        font-size: 9rem;
+                        font-weight: 900;
+                        color: white;
+                        background-image: linear-gradient(
+                          to right,
+                          #8ecae650,
+                          #219ebc50
+                        );
+                        color: #ffffff50;
+                        background-clip: text;
+                      "
+                    >
+                      John Packer
+                    </h1>
+                    <h2
+                      class="text-white text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal"
+                    >
+                      I'm a software designer with 17 years of experience,
+                      specializing in user interface and user experience design.
+                    </h2>
+                  </div>
+                  <button
+                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#1980e6] text-slate-50 text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]"
+                    style="background-color: #4cd064"
+                  >
+                    <span class="truncate">Contact me</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <h2
+              class="text-[#0e141b] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5"
+            >
+              Previous Work
+            </h2>
+            <div
+              class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4"
+            >
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style="
+                    border: 3px solid #223830;
+                    border-radius: 10px;
+                    background-image: url('https://databox.com/wp-content/themes/databox/inc/img/product-pages-2024/dashboards/no-code-designer/no-code-designer.png');
+                  "
+                ></div>
+                <div>
+                  <p
+                    class="text-[#0e141b] text-base font-medium leading-normal"
+                  >
+                    SaaS Dashboard
+                  </p>
+                  <p class="text-[#4e7397] text-sm font-normal leading-normal">
+                    Design System
+                  </p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style="
+                    border: 3px solid #223830;
+                    border-radius: 10px;
+                    background-image: url('https://www.elpassion.com/hubfs/healthcare_app_ideas.jpg');
+                  "
+                ></div>
+                <div>
+                  <p
+                    class="text-[#0e141b] text-base font-medium leading-normal"
+                  >
+                    Healthcare App
+                  </p>
+                  <p class="text-[#4e7397] text-sm font-normal leading-normal">
+                    Patient Management
+                  </p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style="
+                    border: 3px solid #223830;
+                    border-radius: 10px;
+                    background-image: url('https://magesolution.com/wp-content/uploads/2022/07/ecommerce-website-design-examples-1024x768.jpg');
+                  "
+                ></div>
+                <div>
+                  <p
+                    class="text-[#0e141b] text-base font-medium leading-normal"
+                  >
+                    E-commerce Site
+                  </p>
+                  <p class="text-[#4e7397] text-sm font-normal leading-normal">
+                    Product Page
+                  </p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style="
+                    border: 3px solid #223830;
+                    border-radius: 10px;
+                    background-image: url('https://www.mindinventory.com/blog/wp-content/uploads/2022/08/mobile-game-ideas-1.webp');
+                  "
+                ></div>
+                <div>
+                  <p
+                    class="text-[#0e141b] text-base font-medium leading-normal"
+                  >
+                    Mobile Game
+                  </p>
+                  <p class="text-[#4e7397] text-sm font-normal leading-normal">
+                    Onboarding Flow
+                  </p>
+                </div>
+              </div>
+            </div>
+            <h2
+              class="text-[#0e141b] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5"
+            >
+              Notable Employers
+            </h2>
+            <div
+              class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4"
+            >
+              <div class="flex flex-col gap-3 text-center">
+                <div class="px-4">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-3xl"
+                    style="
+                      background-color: #c9dbdf;
+                      background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/768px-Google_%22G%22_logo.svg.png');
+                      background-size: 70px;
+                    "
+                  ></div>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 text-center">
+                <div class="px-4">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-3xl"
+                    style="
+                      background-color: #c9dbdf;
+                      background-size: 70px;
+                      background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/640px-Facebook_Logo_%282019%29.png');
+                    "
+                  ></div>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 text-center">
+                <div class="px-4">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-3xl"
+                    style="
+                      background-color: #c9dbdf;
+                      background-image: url('https://cdn-icons-png.flaticon.com/512/0/747.png');
+                      background-size: 70px;
+                    "
+                  ></div>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 text-center">
+                <div class="px-4">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-3xl"
+                    style="
+                      background-color: #c9dbdf;
+                      background-image: url('https://pnghunter.com/get-logo.php?id=32761');
+                    "
+                  ></div>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 text-center">
+                <div class="px-4">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-3xl"
+                    style="
+                      background-color: #c9dbdf;
+                      background-size: 100px;
+                      background-image: url('https://cdn.pixabay.com/photo/2013/02/12/09/07/microsoft-80658_1280.png');
+                    "
+                  ></div>
+                </div>
+              </div>
+            </div>
+            <h2
+              class="text-[#0e141b] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5"
+            >
+              About
+            </h2>
+            <p
+              class="text-[#0e141b] text-base font-normal leading-normal pb-3 pt-1 px-4"
+            >
+              I'm an experienced software designer with a passion for creating
+              memorable and intuitive user experiences. My career has taken me
+              to some of the world's most innovative companies, where I've had
+              the opportunity to work on a diverse range of projects. My goal is
+              to leverage my skills and expertise to help businesses build
+              products that are not only functional and reliable, but also
+              delightful to use.
+            </p>
+            <h2
+              class="text-[#0e141b] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5"
+            >
+              Skills and Technologies
+            </h2>
+            <div class="flex gap-3 p-3 flex-wrap pr-4">
+              <div
+                class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-xl bg-[#e7edf3] pl-4 pr-4"
+              >
+                <p class="text-[#0e141b] text-sm font-medium leading-normal">
+                  User Interface Design
+                </p>
+              </div>
+              <div
+                class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-xl bg-[#e7edf3] pl-4 pr-4"
+              >
+                <p class="text-[#0e141b] text-sm font-medium leading-normal">
+                  User Experience Design
+                </p>
+              </div>
+              <div
+                class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-xl bg-[#e7edf3] pl-4 pr-4"
+              >
+                <p class="text-[#0e141b] text-sm font-medium leading-normal">
+                  Interaction Design
+                </p>
+              </div>
+              <div
+                class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-xl bg-[#e7edf3] pl-4 pr-4"
+              >
+                <p class="text-[#0e141b] text-sm font-medium leading-normal">
+                  Wireframing
+                </p>
+              </div>
+              <div
+                class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-xl bg-[#e7edf3] pl-4 pr-4"
+              >
+                <p class="text-[#0e141b] text-sm font-medium leading-normal">
+                  Prototyping
+                </p>
+              </div>
+              <div
+                class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-xl bg-[#e7edf3] pl-4 pr-4"
+              >
+                <p class="text-[#0e141b] text-sm font-medium leading-normal">
+                  Design Systems
+                </p>
+              </div>
+              <div
+                class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-xl bg-[#e7edf3] pl-4 pr-4"
+              >
+                <p class="text-[#0e141b] text-sm font-medium leading-normal">
+                  Usability Testing
+                </p>
+              </div>
+              <div
+                class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-xl bg-[#e7edf3] pl-4 pr-4"
+              >
+                <p class="text-[#0e141b] text-sm font-medium leading-normal">
+                  Front-End Development
+                </p>
+              </div>
+              <div
+                class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-xl bg-[#e7edf3] pl-4 pr-4"
+              >
+                <p class="text-[#0e141b] text-sm font-medium leading-normal">
+                  HTML/CSS
+                </p>
+              </div>
+              <div
+                class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-xl bg-[#e7edf3] pl-4 pr-4"
+              >
+                <p class="text-[#0e141b] text-sm font-medium leading-normal">
+                  JavaScript
+                </p>
+              </div>
+            </div>
+            <h2
+              class="text-[#0e141b] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5"
+            >
+              Testimonials
+            </h2>
+            <div
+              class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4"
+            >
+              <div
+                class="flex flex-1 gap-3 rounded-lg border border-[#d0dbe7] bg-slate-50 p-4 flex-col"
+              >
+                <div
+                  class="bg-center bg-no-repeat aspect-square bg-cover rounded-full w-10 shrink-0"
+                  style="
+                    background-image: url('https://cdn.usegalileo.ai/sdxl10/c1f159ed-ae93-44a2-899e-0f99278a3392.png');
+                  "
+                ></div>
+                <h2 class="text-[#0e141b] text-base font-bold leading-tight">
+                  "John is a highly skilled designer with a keen eye for detail.
+                  He's able to take complex concepts and distill them into
+                  simple, elegant solutions. His work consistently exceeds
+                  expectations, and he's a pleasure to collaborate with."
+                </h2>
+              </div>
+              <div
+                class="flex flex-1 gap-3 rounded-lg border border-[#d0dbe7] bg-slate-50 p-4 flex-col"
+              >
+                <div
+                  class="bg-center bg-no-repeat aspect-square bg-cover rounded-full w-10 shrink-0"
+                  style="
+                    background-image: url('https://cdn.usegalileo.ai/sdxl10/28ed0ec4-468e-4e56-862f-a4e25d434152.png');
+                  "
+                ></div>
+                <h2 class="text-[#0e141b] text-base font-bold leading-tight">
+                  "John is a talented designer who brings a unique blend of
+                  creativity and pragmatism to his work. He's able to balance
+                  the needs of users with the requirements of the business,
+                  resulting in designs that are both beautiful and functional. I
+                  would not hesitate to recommend John for any design project."
+                </h2>
+              </div>
+            </div>
+            <h2
+              class="text-[#0e141b] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5"
+            >
+              Contact
+            </h2>
+            <p
+              class="text-[#0e141b] text-base font-normal leading-normal pb-3 pt-1 px-4"
+            >
+              If you're interested in working together, please get in touch
+              using the form below or email me at john.packer@gmail.com.
+            </p>
+            <div
+              class="flex max-w-[1000px] flex-wrap items-end gap-4 px-4 py-3"
+            >
+              <label class="flex flex-col min-w-40 flex-1">
+                <input
+                  placeholder="Your name"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#0e141b] focus:outline-0 focus:ring-0 border-none bg-[#ffffff] focus:border-none h-14 placeholder:text-[#4e7397] p-4 text-base font-normal leading-normal"
+                  value=""
+                />
+              </label>
+            </div>
+            <div
+              class="flex max-w-[1000px] flex-wrap items-end gap-4 px-4 py-3"
+            >
+              <label class="flex flex-col min-w-40 flex-1">
+                <input
+                  placeholder="Your email"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#0e141b] focus:outline-0 focus:ring-0 border-none bg-[#ffffff] focus:border-none h-14 placeholder:text-[#4e7397] p-4 text-base font-normal leading-normal"
+                  value=""
+                />
+              </label>
+            </div>
+            <div
+              class="flex max-w-[1000px] flex-wrap items-end gap-4 px-4 py-3"
+            >
+              <label class="flex flex-col min-w-40 flex-1">
+                <textarea
+                  placeholder="Your message"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#0e141b] focus:outline-0 focus:ring-0 border-none bg-[#ffffff] focus:border-none min-h-36 placeholder:text-[#4e7397] p-4 text-base font-normal leading-normal"
+                ></textarea>
+              </label>
+            </div>
+            <div class="flex px-4 py-3 justify-end">
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#1980e6] text-slate-50 text-sm font-bold leading-normal tracking-[0.015em]"
+              >
+                <span class="truncate">Send message</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
